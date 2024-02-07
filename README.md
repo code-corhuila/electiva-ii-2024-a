@@ -14,19 +14,19 @@
 
 Nota: Si esta iniciada la sesión, elimine la instancia en credenciales del S.O.
 
-# Paso 3
+# Paso 4
 ## Clonar el repositorio
 ``
 git clone https://github.com/code-corhuila/electiva-ii-2024-a.git
 `` 
 
-# Paso 4
+# Paso 5
 ## Obtener cambios de un repositorio, cuando solo tengo visualización
 ``git pull
 ``
 Nota: se debe ejecutar el comando sobre la raíz del repositorio, ejemplo: C:\xampp\htdocs\GitHub\electiva-ii-2024-a
 
-# Paso 5
+# Paso 6
 ## Genener cambios en el repositorio, cuando se tiene acceso. 
 ``
 - git pull
