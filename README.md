@@ -9,10 +9,9 @@
 
 # Paso 3:
 ## Configurar git 
-``
 - git config --global user.name "John Doe" 
-git config --global user.email johndoe@example.com
-``
+- git config --global user.email johndoe@example.com
+
 Nota: Si esta iniciada la sesión, elimine la instancia en credenciales del S.O.
 
 # Paso 3
