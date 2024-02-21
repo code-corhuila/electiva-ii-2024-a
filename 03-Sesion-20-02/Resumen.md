@@ -6,10 +6,10 @@
 - Un rol puede tener acceso a diferentes módulos.
 - Un módulo puede tener asociadas muchas vistas (.html .frm)
 
+Otras alternativas: (camelCase, PascalCase, unders_core, kebab-case)
+
 # Reconocimiento de entidades:
 ## tanto atributos, como el nombre de las entidades, dejar en unders_core y singular. 
-
-Otras alternativas: (camelCase, PascalCase, unders_core, kebab-case)
 
 # Parte 1: Entidades
 persona: 
