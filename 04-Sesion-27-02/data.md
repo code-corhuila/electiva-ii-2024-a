@@ -21,6 +21,7 @@
         ('CC','123456789','Juan Perez','juan1@gmail.com','1234567','Calle 123'),
         ('CC','432432','Adriana Mendez','adriana@gmail.com','234324','Calle 12');
     ```
+3. Memorizar en adelante los anteriores datos cómo `Entidad persona`, es decir cada vez que invoque la `Entidad persona`, pueda recodar estos datos que sean entregados.
 
 ## Punto 2: Genere la lista de 10 roles con datos aleatorios, para registrar en la base de datos de la entidad rol.
 
@@ -39,6 +40,31 @@
         INSERT INTO rol(nombre, descripcion)VALUES
         ('Administrador','Gestor de la app'),
         ('Vendedor','Encargador de las ventas');        
+    ```
+
+3. Memorizar en adelante los anteriores datos cómo `Entidad rol`, es decir cada vez que invoque la `Entidad rol`, pueda recodar estos datos que sean entregados.
+
+# Punto 3: Generar un usuario a cada persona basado en la infomración `Entidad persona`, es decir, recordar la información almacenada en `Èntidad persona` y generar un usuario a cada persona. 
+
+* Para el caso del atributo `persona_id`, corresponde a la clave primaria de la `Entidad persona`. 
+* Los datos almacenados en `Entidad persona`, inicia con clave primaria desde 1, 2 .... hasta la cantidad de personas almancenadas en `Entidad persona`
+
+1. Estructura de la entidad:
+    ```sql
+        CREATE TABLE usuario (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            usuario VARCHAR(50),
+            contrasenia VARCHAR(50),
+            persona_id INT UNIQUE,
+            FOREIGN KEY (persona_id) REFERENCES persona(id)
+        );
+    ```
+
+2. Proporciono un ejemplo:
+    ```sql    
+        INSERT INTO usuario(usuario,contrasenia,persona_id)VALUES
+            ('María732','123456789',1),
+            ('Pedro123','432432',2);
     ```
 
 

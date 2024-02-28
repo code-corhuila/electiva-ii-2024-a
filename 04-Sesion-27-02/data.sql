@@ -137,3 +137,15 @@ INSERT INTO rol(nombre, descripcion) VALUES
 ('Recursos Humanos', 'Responsable de la gestión del talento humano en la empresa'),
 ('Asistente Administrativo', 'Brinda apoyo administrativo en diversas áreas'),
 ('Consultor de Negocios', 'Ofrece asesoramiento y soluciones para mejorar la eficiencia empresarial');
+
+INSERT INTO usuario(usuario, contrasenia, persona_id) VALUES
+('usuario1', 'contrasenia1', 1),
+('usuario2', 'contrasenia2', 2),
+('usuario3', 'contrasenia3', 3),
+('usuario4', 'contrasenia4', 4),
+('usuario5', 'contrasenia5', 5),
+('usuario6', 'contrasenia6', 6),
+('usuario7', 'contrasenia7', 7),
+('usuario8', 'contrasenia8', 8),
+('usuario9', 'contrasenia9', 9),
+('usuario10', 'contrasenia10', 10);
