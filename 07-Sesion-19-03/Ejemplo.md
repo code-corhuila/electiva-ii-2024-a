@@ -486,7 +486,7 @@ IEstudianteRepository
 ---------
 ```java
 @Repository
-public interface IEstudianteRepository extends ABaseEntity<Estudiante, Long>{
+public interface IEstudianteRepository extends IBaseRepository<Estudiante, Long>{
 
 }
 ```
