@@ -514,6 +514,14 @@ public interface IEstudianteService extends IBaseService<Estudiante> {
 }
 ```
 
+IMateriaService
+---------
+```java
+public interface IMateriaService extends IBaseService<Materia> {
+
+}
+```
+
 ## Service
 
 ABaseService
