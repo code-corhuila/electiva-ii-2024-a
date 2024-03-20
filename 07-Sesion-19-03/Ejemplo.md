@@ -543,3 +543,52 @@ EstudianteController
 **Use el controller abstracto**
 
 
+# Documentación API
+
+Serve: `http://localhost:9000`
+EndPoint: `Corresponde al nombre de cada controller`
+
+Estudiante
+----------
+
+**All**
+http://localhost:9000/api/estudiante
+
+
+**FindById**
+http://localhost:9000/api/estudiante/`id`
+
+```json
+
+```
+
+**Save**
+http://localhost:9000/api/estudiante
+
+```json
+{
+  "nombre":"Jesús Ariel González Bonilla",
+  "documento":"231267832",
+  "estado":1
+} 
+```
+
+**Update**
+http://localhost:9000/api/estudiante/`id`
+
+```json
+{
+  "nombre":"Jesús Ariel González Bonilla",
+  "documento":"231267832",
+  "estado":1
+} 
+```
+
+**Delete**
+http://localhost:9000/api/estudiante/`id`
+
+```json
+
+```
+
+

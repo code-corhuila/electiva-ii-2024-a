@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Electiva",
+    "dateExported": "2024-03-20T12:26:13.799Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "b996e8d3-f564-4a6d-a80d-35ed7380e493",
+            "name": "Estudiante",
+            "containerId": "",
+            "created": "2024-03-20T12:18:39.820Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d7845c7a-2064-4f74-92a4-cc8b7de22124",
+            "colId": "686a5fde-50f7-4da9-8a8c-860635db5bf2",
+            "containerId": "b996e8d3-f564-4a6d-a80d-35ed7380e493",
+            "name": "All",
+            "url": "http://localhost:9000/api/estudiante",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-20T12:18:45.103Z",
+            "modified": "2024-03-20T12:21:54.881Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "624c786a-64ee-4b40-83bf-7589045ba8b1",
+            "colId": "686a5fde-50f7-4da9-8a8c-860635db5bf2",
+            "containerId": "b996e8d3-f564-4a6d-a80d-35ed7380e493",
+            "name": "FindById",
+            "url": "http://localhost:9000/api/estudiante",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-20T12:19:14.819Z",
+            "modified": "2024-03-20T12:19:14.819Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6f86187f-4224-4df3-8e76-af3bc487eb13",
+            "colId": "686a5fde-50f7-4da9-8a8c-860635db5bf2",
+            "containerId": "b996e8d3-f564-4a6d-a80d-35ed7380e493",
+            "name": "Save",
+            "url": "http://localhost:9000/api/estudiante",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-20T12:19:54.210Z",
+            "modified": "2024-03-20T12:22:03.500Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Jesús Ariel González Bonilla\",\n  \"documento\":\"231267832\",\n  \"estado\":1\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "3cc252f0-35bd-41ad-b949-d4623bfd959a",
+            "colId": "686a5fde-50f7-4da9-8a8c-860635db5bf2",
+            "containerId": "b996e8d3-f564-4a6d-a80d-35ed7380e493",
+            "name": "Update",
+            "url": "http://localhost:9000/api/estudiante/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-20T12:22:08.297Z",
+            "modified": "2024-03-20T12:22:47.678Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Adriana Sofia Goméz\",\n  \"documento\":\"432423\",\n  \"estado\":1\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        }
+    ]
+}
