@@ -1,7 +1,6 @@
 package com.corhuila.electivaii.Entity;
 
 import jakarta.persistence.*;
-import org.antlr.v4.runtime.misc.NotNull;
 
 import java.math.BigDecimal;
 
@@ -14,7 +13,6 @@ public class Matricula {
     private Long id;
 
     @Column(name = "corte", nullable = false)
-    @NotNull
     private Byte corte;
 
     @Column(name = "nota", nullable = false, precision = 10, scale = 1)
