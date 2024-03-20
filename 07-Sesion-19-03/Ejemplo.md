@@ -456,7 +456,7 @@ ABaseEntity
 ---------
 ```java
 @Suppermapped
-public class ABaseEntity {
+public abstract class ABaseEntity {
     //Atributos Genéricos
 }
 ```
